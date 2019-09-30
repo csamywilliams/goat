@@ -13,7 +13,13 @@ const color4 = beige;
 const color5 = green;
 
 const theme = {
-    main: {
+    main: { 
+        about: {
+            bg: color2
+        }, 
+        herd: {
+            bg: color2
+        },
         facts: {
             bg: color2
         },

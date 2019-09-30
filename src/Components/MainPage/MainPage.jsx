@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+import About from '../About/About';
+import Herd from '../Herd/Herd';
 import Facts from '../Facts/Facts';
 import ForSale from '../ForSale/ForSale';
 import Gallery from '../Gallery/Gallery';
@@ -15,8 +17,8 @@ class MainPage extends Component {
         <main>
           <h1>The Prancing Anglo-Nubian</h1>
           <p>Oh Nay there!</p>
-          <h2>About</h2>
-          <h2>The Herd</h2>
+          <About />
+          <Herd />
           <Facts />
           <ForSale />
           <Gallery />
