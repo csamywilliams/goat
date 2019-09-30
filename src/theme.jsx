@@ -12,13 +12,19 @@ const color5 = green;
 
 const theme = {
     main: {
-       footer: {
-            bg: color1,
-            hooves: color2,
-            svg: {
-                fill: color3
-            }
-       }
+        gallery: {
+            bg: color1
+        },
+        contact: {
+            bg: color5
+        },
+        footer: {
+                bg: color1,
+                hooves: color2,
+                svg: {
+                    fill: color3
+                }
+        }
 
     }
 };

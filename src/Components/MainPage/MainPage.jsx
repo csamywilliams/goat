@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+import Gallery from '../Gallery/Gallery';
+import Contact from '../Contact/Contact';
 import PageFooter from '../PageFooter/PageFooter';
-
 
 class MainPage extends Component {
 
@@ -17,7 +18,8 @@ class MainPage extends Component {
           <h2>Facts</h2>
           <h2>For Sale</h2>
           <h2>Gallery</h2>
-          <h2>Contact Us</h2>
+          <Gallery />
+          <Contact />
           <PageFooter />
         </main>
     );
