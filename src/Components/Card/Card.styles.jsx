@@ -5,15 +5,17 @@ export const Layout = styled.div`
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    padding: 10px;
     border: 1px solid ${props => props.theme.sale.border};
+    border-radius: 10px;
     margin: 10px;
-    min-height: 200px;
+    min-height: 250px;
 `;
 
 export const Item = styled.div`
-    align-self: center;
+    background-color: ${props => props.theme.sale.content.bg};
     flex: 1;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 `;
 
 export const Name = styled.h3`
@@ -41,4 +43,5 @@ export const Img = styled.img`
     border-radius: 10px;
     align-self: center;
     flex: 1;
-`
+    margin: 10px 20px;
+`;

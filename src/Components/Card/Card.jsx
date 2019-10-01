@@ -14,7 +14,6 @@ class Card extends Component {
         <Layout>
 
           <Img src={this.props.src} alt={altText} />
- 
           <Item>
             <Name>{this.props.name}</Name>
             <p>Born: {this.props.dob}</p>

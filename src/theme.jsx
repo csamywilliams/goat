@@ -38,7 +38,10 @@ const theme = {
         },
         sale: {
             bg: color4,
-            border: color3
+            border: color2,
+            content: {
+                bg: color2
+            }
         },
         gallery: {
             bg: color1

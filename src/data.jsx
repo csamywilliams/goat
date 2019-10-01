@@ -25,14 +25,21 @@ const data = {
             price: "250.00",
             dob: "10/08/2020",
             gender: "male",
-            src: goat2
+            src: goat5
+        },
+        {
+            name: "crackles",
+            price: "250.00",
+            dob: "10/08/2020",
+            gender: "male",
+            src: goat3
         },
         {
             name: "sparkles 2 ",
             price: "250.00",
             dob: "07/08/2020",
             gender: "female",
-            src: goat3
+            src: goat2
         },
         {
             name: "crackles3",
