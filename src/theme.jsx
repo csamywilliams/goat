@@ -1,4 +1,3 @@
-import { cpus } from "os";
 
 const paleOrange = '#EED093';
 const beige = '#FBF8F3';
@@ -14,6 +13,17 @@ const color5 = green;
 
 const theme = {
     main: { 
+        button: {
+            primary: {
+                bg: color5,
+                color: white,
+                hover: {
+                    bg: white,
+                    color: color5,
+                    border: color5,
+                }
+            }
+        },
         about: {
             bg: color2
         }, 
@@ -23,8 +33,12 @@ const theme = {
         facts: {
             bg: color2
         },
+        card: {
+            bg: color2
+        },
         sale: {
-            bg: color4
+            bg: color4,
+            border: color3
         },
         gallery: {
             bg: color1
