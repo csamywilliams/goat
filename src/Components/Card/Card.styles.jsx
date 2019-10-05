@@ -5,10 +5,8 @@ export const Layout = styled.div`
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    border: 1px solid ${props => props.theme.sale.border};
     border-radius: 10px;
     margin: 10px;
-    min-height: 250px;
 `;
 
 export const Item = styled.div`
@@ -36,12 +34,14 @@ export const GenderLayout = styled.div`
 export const Gender = styled.p`
     text-transform: capitalize;
     padding: 0 5px;
+    margin: 0;
 `;
 
 export const Img = styled.img`
+    height: 100%;
     width: 50%;
-    border-radius: 10px;
     align-self: center;
     flex: 1;
-    margin: 10px 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 `;

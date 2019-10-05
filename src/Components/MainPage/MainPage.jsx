@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+import Header from '../Header/Header';
 import About from '../About/About';
 import Herd from '../Herd/Herd';
 import Facts from '../Facts/Facts';
@@ -15,6 +16,7 @@ class MainPage extends Component {
 
     return (
         <main>
+          <Header />
           <h1>The Prancing Anglo-Nubian</h1>
           <p>Oh Nay there!</p>
           <About />
