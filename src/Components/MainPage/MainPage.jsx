@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import { Hero } from './MainPage.styles';
 
 import Header from '../Header/Header';
 import About from '../About/About';
@@ -16,9 +17,9 @@ class MainPage extends Component {
 
     return (
         <main>
-          <Header />
-          <h1>The Prancing Anglo-Nubian</h1>
-          <p>Oh Nay there!</p>
+          <Hero>
+            <Header />
+          </Hero>
           <About />
           <Herd />
           <Facts />
