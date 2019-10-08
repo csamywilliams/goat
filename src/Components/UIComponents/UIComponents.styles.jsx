@@ -38,3 +38,9 @@ export const SecondaryButton = styled.button`
         border: 1px solid ${props => props.theme.button.secondary.hover.border};
     }
 `;
+
+export const WaveSvg = styled.svg`
+    fill: white;
+    position: absolute;
+    bottom: 0;
+`;

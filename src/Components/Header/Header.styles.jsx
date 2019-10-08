@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from '../../Utilities/MediaQueries';
 
 export const Heading = styled.header`
     display: flex;
@@ -38,4 +39,12 @@ export const Item = styled.li`
 
 export const Logo = styled.div`
    
+`;
+
+
+
+export const Section = styled.section`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 `;

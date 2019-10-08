@@ -5,9 +5,15 @@ const color3 = '#EE6A77';
 const color4 = '#569343';
 const color5 = '#4A7D3A';
 const color6 = '#D7C384';
+const color7 = '#2E2F3E';
 
 const theme = {
     main: { 
+        body: {
+            font: {
+                color: color7
+            }
+        },
         button: {
             primary: {
                 bg: color1,
@@ -43,13 +49,13 @@ const theme = {
             bg: color0
         },
         card: {
-            bg: color0
-        },
-        sale: {
             bg: color0,
             content: {
-                bg: color3
+                bg: color0,
+                border: color1
             }
+        },
+        sale: {
         },
         gallery: {
             bg: color0
@@ -58,7 +64,8 @@ const theme = {
             bg: color0
         },
         footer: {
-                bg: color0
+            bg: color4,
+            color: color0
         }
 
     }

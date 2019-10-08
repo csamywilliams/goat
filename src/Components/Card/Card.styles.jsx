@@ -7,10 +7,11 @@ export const Layout = styled.div`
     align-content: center;
     border-radius: 10px;
     margin: 10px;
+    border: 1px solid ${props => props.theme.card.content.border};
 `;
 
 export const Item = styled.div`
-    background-color: ${props => props.theme.sale.content.bg};
+    background-color: ${props => props.theme.card.content.bg};
     flex: 1;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
