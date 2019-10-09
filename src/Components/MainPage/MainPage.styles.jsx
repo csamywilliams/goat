@@ -32,6 +32,8 @@ export const SaleSection = styled.section`
     background: ${props => props.theme.sale.bg};
     color: ${props => props.theme.sale.color};
     padding-bottom: 30px;
+    background: url('plant.png');
+    background-size: contain;
 `;
 
 export const Slogan = styled.p`
