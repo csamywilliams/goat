@@ -7,10 +7,10 @@ export const Layout = styled.div`
     align-content: center;
     border-radius: 10px;
     margin: 10px;
-    border: 1px solid ${props => props.theme.card.content.border};
 `;
 
 export const Item = styled.div`
+    color: ${props => props.theme.card.color};
     background-color: ${props => props.theme.card.content.bg};
     flex: 1;
     border-top-right-radius: 10px;
@@ -45,4 +45,27 @@ export const Img = styled.img`
     flex: 1;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+`;
+
+export const Button = styled.button`
+    border: 0;
+    background-color: ${props => props.theme.card.button.bg};
+    color: ${props => props.theme.card.button.color};
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid ${props => props.theme.card.button.border};
+
+    &:hover {
+        background-color: ${props => props.theme.card.button.hover.bg};
+        color: ${props => props.theme.card.button.hover.color};
+        border: 1px solid ${props => props.theme.card.button.hover.border};
+    }
+
+    &:after {
+        content: "❯";
+        margin-left: 1em;
+    }
 `;

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Layout, Item, Name, Price, Img, Gender, GenderLayout } from './Card.styles';
+import { Layout, Item, Name, Price, Img, Gender, GenderLayout, Button } from './Card.styles';
 import { FaMars, FaVenus } from 'react-icons/fa';
-import { PrimaryButton } from '../UIComponents/UIComponents.styles';
 
 class Card extends Component {
 
@@ -22,7 +21,7 @@ class Card extends Component {
               <GenderIcon/>
             </GenderLayout>
             <Price>£{this.props.price}</Price>
-            <PrimaryButton className={this.props.name}>Contact</PrimaryButton>
+            <Button className={this.props.name}>Contact</Button>
           </Item>
         </Layout>
     );

@@ -40,7 +40,7 @@ export const SecondaryButton = styled.button`
 `;
 
 export const WaveSvg = styled.svg`
-    fill: white;
+    //fill: white;
     position: absolute;
     bottom: 0;
 `;

@@ -12,7 +12,10 @@ const theme = {
         body: {
             font: {
                 color: color7
-            }
+            },
+        },
+        slogan: {
+            color: color4
         },
         button: {
             primary: {
@@ -50,12 +53,25 @@ const theme = {
         },
         card: {
             bg: color0,
+            color: color7,
             content: {
                 bg: color0,
                 border: color1
+            },
+            button: {
+                bg: color0,
+                color: color5,
+                border: color5,
+                hover: {
+                    bg: color5,
+                    color: color0,
+                    border: color0,
+                }
             }
         },
         sale: {
+            color: color0,
+            bg: color4
         },
         gallery: {
             bg: color0
@@ -66,6 +82,12 @@ const theme = {
         footer: {
             bg: color4,
             color: color0
+        },
+        wave: {
+            default: color0,
+            facts: {
+                fill: color4
+            }
         }
 
     }

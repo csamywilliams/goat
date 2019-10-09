@@ -1,12 +1,10 @@
 import styled from 'styled-components';
-import media from '../../Utilities/MediaQueries';
 
 export const Heading = styled.header`
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 `;
-
 
 export const Menu = styled.header`
     display: flex;
@@ -17,7 +15,8 @@ export const Menu = styled.header`
 
 export const Item = styled.li`
 
-    width: 120px;
+    width: auto;
+    min-width: 135px;
     margin: 15px 0;
     text-transform: uppercase;
     font-weight: bold;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Layout, SVG, Copyright } from './PageFooter.styles';
+import { Layout, Copyright } from './PageFooter.styles';
 
 class PageFooter extends Component {
 

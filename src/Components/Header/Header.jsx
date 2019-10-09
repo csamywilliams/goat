@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Logo, Heading, Menu, Item} from './Header.styles';
 
-import background from '../../Assets/Images/header-min.jpg';
-
 class Header extends Component {
 
   render() {
