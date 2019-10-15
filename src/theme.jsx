@@ -46,7 +46,8 @@ const theme = {
             bg: color0
         }, 
         herd: {
-            bg: color0
+            bg: color1,
+            color: color0
         },
         facts: {
             bg: color0
@@ -87,6 +88,9 @@ const theme = {
             default: color0,
             facts: {
                 fill: color4
+            },
+            herd: {
+                fill: color1
             }
         }
 

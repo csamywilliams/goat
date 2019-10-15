@@ -27,7 +27,7 @@ class MainPage extends Component {
           </HeroSection>
           <Section>
             <About />
-            <WaveSVG />
+            <WaveSVG fill={theme.main.wave.herd.fill} />
           </Section>
           <Section>
             <Herd />
@@ -38,6 +38,7 @@ class MainPage extends Component {
           </Section>
           <SaleSection>
             <ForSale />
+            <WaveSVG />
           </SaleSection>
           <Gallery />
           <Contact />
