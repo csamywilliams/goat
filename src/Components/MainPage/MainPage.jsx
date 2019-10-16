@@ -40,7 +40,10 @@ class MainPage extends Component {
             <ForSale />
             <WaveSVG />
           </SaleSection>
-          <Gallery />
+          <Section >
+            <Gallery />
+            <WaveSVG fill={theme.main.wave.contact.fill} />
+          </Section>
           <Contact />
           <PageFooter />
         </main>

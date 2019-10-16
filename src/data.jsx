@@ -4,13 +4,34 @@ import goat3 from './Assets/Images/C.JPG';
 import goat4 from './Assets/Images/D.JPG';
 import goat5 from './Assets/Images/E.JPG';
 
+import poppy from './Assets/Images/poppy.JPG';
+import ariel from './Assets/Images/ariel.JPG';
+import sari from './Assets/Images/sari.JPG';
+import gruff from './Assets/Images/gruff.JPG';
+import shadow from './Assets/Images/shadow.JPG';
+
 const data = {
     goats: [
-        "poppy",
-        "ariel",
-        "sari",
-        "gruff",
-        "shadow"
+        {
+            name: "Poppy",
+            image: poppy
+        },
+        {
+            name: "Ariel",
+            image: ariel
+        },
+        {
+            name: "Sari",
+            image: sari
+        },
+        {
+            name: "Gruff",
+            image: gruff
+        },
+        {
+            name: "Shadow",
+            image: shadow
+        }
     ],
     forsale: [
         {

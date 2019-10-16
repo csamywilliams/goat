@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Layout = styled.div`
     background-color: ${props => props.theme.gallery.bg};
+    margin-bottom: 20px;
 `;
 
 export const GalleryGrid = styled.div`

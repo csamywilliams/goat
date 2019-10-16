@@ -45,6 +45,11 @@ const theme = {
         about: {
             bg: color0
         }, 
+        heads: {
+            bg: color0,
+            color: color7,
+            shadow: color2
+        },
         herd: {
             bg: color1,
             color: color0
@@ -78,7 +83,8 @@ const theme = {
             bg: color0
         },
         contact: {
-            bg: color0
+            bg: color1,
+            color: color0
         },
         footer: {
             bg: color4,
@@ -90,6 +96,9 @@ const theme = {
                 fill: color4
             },
             herd: {
+                fill: color1
+            },
+            contact: {
                 fill: color1
             }
         }
