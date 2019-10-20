@@ -35,7 +35,16 @@ const theme = {
                     color: color0,
                     border: color2,
                 }
-            }
+            },
+            send: {
+                bg: color4,
+                color: color0,
+                hover: {
+                    bg: color0,
+                    color: color4,
+                    border: color4,
+                }
+            },
         },
         menu: {
             item: {
@@ -43,7 +52,8 @@ const theme = {
             }
         },
         about: {
-            bg: color0
+            bg: color0,
+            color: color4
         }, 
         heads: {
             bg: color0,
@@ -55,7 +65,8 @@ const theme = {
             color: color0
         },
         facts: {
-            bg: color0
+            bg: color0,
+            border: color6
         },
         card: {
             bg: color0,
@@ -84,10 +95,15 @@ const theme = {
         },
         contact: {
             bg: color1,
-            color: color0
+            color: color0,
+            form: {
+                header: color7,
+                bg: color0,
+                border: color7
+            }
         },
         footer: {
-            bg: color4,
+            bg: color2,
             color: color0
         },
         wave: {

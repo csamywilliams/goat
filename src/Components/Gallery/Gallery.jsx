@@ -3,8 +3,8 @@ import { Layout, GalleryGrid, Item, ItemC, ItemD} from './Gallery.styles';
 
 import image1 from '../../Assets/Images/goat1.JPG';
 import image2 from '../../Assets/Images/goat2.JPG';
-import image3 from '../../Assets/Images/goat3.JPG';
-import image4 from '../../Assets/Images/goat4.JPG';
+import image3 from '../../Assets/Images/goat8.JPG';
+import image4 from '../../Assets/Images/goat10.JPG';
 import image5 from '../../Assets/Images/goat5.JPG';
 import image6 from '../../Assets/Images/goat6.JPG';
 

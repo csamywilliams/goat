@@ -31,11 +31,12 @@ class MainPage extends Component {
           </Section>
           <Section>
             <Herd />
+            <WaveSVG />
           </Section>
-          <Section>
+          {/* <Section>
             <Facts />
-            <WaveSVG fill={theme.main.wave.facts.fill} />
-          </Section>
+            <WaveSVG fill={theme.main.wave.facts.fill} /> 
+          </Section> */}
           <SaleSection>
             <ForSale />
             <WaveSVG />
