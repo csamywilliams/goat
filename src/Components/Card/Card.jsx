@@ -21,7 +21,7 @@ class Card extends Component {
               <GenderIcon/>
             </GenderLayout>
             <Price>£{this.props.price}</Price>
-            <Button className={this.props.name}>Contact</Button>
+            <Button className={this.props.name}></Button>
           </Item>
         </Layout>
     );

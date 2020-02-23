@@ -7,14 +7,15 @@ export const Layout = styled.div`
     align-content: center;
     border-radius: 10px;
     margin: 10px;
+    padding: 5px;
+    background-color: ${props => props.theme.card.content.bg};
 `;
 
 export const Item = styled.div`
     color: ${props => props.theme.card.color};
     background-color: ${props => props.theme.card.content.bg};
     flex: 1;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    padding: 5px;
 `;
 
 export const Name = styled.h3`
@@ -39,12 +40,11 @@ export const Gender = styled.p`
 `;
 
 export const Img = styled.img`
-    height: 100%;
-    width: 50%;
+    width: 200px;
+    height: 140px;
     align-self: center;
     flex: 1;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    padding-left: 5px;
 `;
 
 export const Button = styled.button`
@@ -66,6 +66,5 @@ export const Button = styled.button`
 
     &:after {
         content: "❯";
-        margin-left: 1em;
     }
 `;

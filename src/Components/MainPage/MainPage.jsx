@@ -31,7 +31,7 @@ class MainPage extends Component {
           </Section>
           <Section>
             <Herd />
-            <WaveSVG />
+            {/* <WaveSVG /> */}
           </Section>
           {/* <Section>
             <Facts />
